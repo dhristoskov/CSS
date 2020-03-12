@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/97203dddc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calorie Calcolator</title>
+</head>
+<body>
+    <div class="main-container">
+        <section class="left">
+            <img src="./image/image.png" alt="calc">
+        </section>
+        <section class="right">
+            <h1>CALORIE CALCULATOR</h1>
+            <div class="toggle">
+                <p>Standart units (US)</p>
+                <p>Metric units</p>
+            </div>
+            <form class="calc-form">
+                <div class="first-row">                   
+                    <div class="selector">
+                        <label for="gender">Gender</label>
+                        <select id="gender">
+                            <option disabled selected value> - select - </option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    <div class="age">
+                        <label for="age">Age</label>
+                        <input type="text" id="age" placeholder="Year...">
+                    </div>
+                </div>              
+                <div class="weight">
+                    <label for="weight">Weight</label>
+                    <input type="text" id="weight" placeholder="Pounds...">
+                </div>
+                <div class="height">
+                    <label for="height">Height</label>
+                    <input type="text" id="height" placeholder="Feet...">
+                    <input type="text" placeholder="Inches...">
+                </div>
+                <button>Calculate</button>
+            </form>
+        </section>
+    </div>    
+</body>
+</html>

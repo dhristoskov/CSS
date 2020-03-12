@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 50em;
+    min-height: 30em;
+    border: 2px solid #8F8D97;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.left {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 50%;
+}
+
+.left img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto; 
+}
+
+.right {
+    flex: 0 0 50%;
+}
+
+.right h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 1em;
+    color: #8F8D97;
+}
+
+.toggle {
+    display: flex;
+    margin: 0 1em 1em;
+}
+
+.toggle p:first-child {
+    background-color: #F8FA90;
+}
+
+.toggle p:nth-child(2){
+    background-color: #8F8D97;
+}
+
+.toggle p{
+    border: 1px solid #8F8D97;
+    flex: 0 0 50%;
+    font-size: 18px;
+    text-align: center;
+    padding: 0.3em;
+    cursor: pointer;
+}
+
+.calc-form {
+    padding: 1.5em;
+}
+
+.calc-form input {
+    padding: 0.6em;
+}
+
+.calc-form label {
+    margin-bottom: 0.2em;
+}
+
+.calc-form select {
+    padding: 0.6em;
+}
+
+.first-row {
+    display: flex;
+}
+
+.selector {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 47%;
+    margin-right: 0.5em;
+}
+
+.age {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 47%;
+}
+
+.weight {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.height label {
+    display: block;
+    margin-top: 1em;
+}
+
+.height input {
+    display: inline-block;
+    width: 47%;
+    margin: 0 auto;
+    margin-right: 0.5em;
+}
+
+
+.calc-form button {
+    display: block;
+    width: 100%;
+    padding: 0.6em;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: white;
+    background-color:#8F8D97;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+
+
