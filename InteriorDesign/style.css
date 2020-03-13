@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+header {
+    background-image: url(./image/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: auto;
+}
+
+.content {
+    padding: 5em;
+}
+
+.text-content {
+    float: right;
+    margin-top: 5em;
+    padding: 4em 1em 2em 4em;
+    width: 300px;
+    text-align: end;
+    background-color: #C5C3BE;
+    border: 2px solid #C5C3BE;
+    box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.75);
+    color: #88857E;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.logo {
+    display: block;
+    width: 200px;
+    padding: 2em;
+    box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.75);
+}
+
+.logo h1{
+    border-bottom: 2px solid white;
+    margin-bottom: 0.5em;
+}
+
+.logo p {
+    margin-bottom: 0.5em;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content section {
+    flex: 1 1 80%;
+    margin: 3em 0 3em 5em;
+}
+
+section h1 {
+    margin: 1em auto;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.services {
+    padding: 1em 16em 0 0;
+}
+
+.services p span {
+    font-weight: 700;
+}
+
+.main-content aside {
+    flex: 1 1 20%;
+    background-color: #88857E;
+}
+
+.contacts h1{
+    margin: 1em auto;
+    font-size: 35px;
+    font-weight: 900;
+    border-bottom: 2px solid #88857E;
+}
