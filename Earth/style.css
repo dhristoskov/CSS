@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 'Open Sans', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.planet-card {
+    max-width: 38em;
+    margin: 2em auto;
+    border: 2px solid black;
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: 0px -1px 37px 0px rgba(0,0,0,0.75);
+}
+
+header {
+    background-color: black;
+    color: cyan;
+    padding: 1em 2em;
+}
+
+header h1 {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+    padding: 1em 2em;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.image-content{
+    flex: 0 0 40%;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+}
+
+.subtext {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.text-content{
+    flex: 0 0 60%;
+    padding: 1.2em;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column; 
+}
+
+footer h2 {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0.3em 1em;
+    border: 1px solid black;
+    margin-right: 16em;
+}
+
+.facts {
+    background-color: black;
+    color: cyan;
+    padding: 1em 2em;
+}
+
+.facts li {
+    list-style: none;
+}
+
+.facts li span {
+    font-weight: 800;
+    color: cyan;
+    margin-right: 0.3em;
+}
