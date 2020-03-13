@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 'Courgette', cursive;;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.site {
+    margin: 5em;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.title p {
+    font-size: 28px;
+    margin-left: 7em;
+    color: red;
+    margin-bottom: 1em;
+}
+
+.title h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.cards-containar {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
+    text-align: center;
+    background-color: #E5ABAB;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content h2 {
+    border-bottom: 1px solid red;
+    margin: 1em;
+}
+
+.card-content p {
+    min-height: 4em;
+}
+
+.card-content .link {
+    margin-top: 2em;
+}
+
+.link span {
+    margin-left: 0.5em;
+    color: red;
+}
