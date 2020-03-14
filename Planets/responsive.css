@@ -1,0 +1,34 @@
+@media screen and (max-width: 1000px){
+    .primary .pair {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primary .pair > * {
+        width: 80%;
+    }
+
+    .primary footer nav {
+        flex-direction: column;
+    }
+
+    .primary footer nav a {
+        border: none !important;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .primary .news ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primary .news ul li {
+        text-align: center;
+    }
+
+    .pair .planet_info{
+        font-size: 14px;
+    }
+}
