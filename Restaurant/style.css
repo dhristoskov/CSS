@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 'Poppins', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*:focus {
+    outline: none;
+}
+
+.site-container {
+    margin: 2em 12em;
+    display: flex;
+    max-height: 100vh;
+    background-color: #140B25; 
+    border: 2px solid  #140B25;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 1em;  
+    overflow: hidden; 
+}
+
+.image{
+    display: flex;
+    clip-path: polygon(0 0, 100% 0, 67% 100%, 0% 100%);
+}
+
+.image img {
+    flex: 0 0 50%;
+    width: 100%;
+    height: auto;
+}
+
+.booking-form {
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking-form h2 {
+    color: white;
+    margin: 3em auto;
+    margin-top: 7em;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.booking-form input {
+    color: white;
+    background-color: #140B25;
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid white;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    letter-spacing: 1px;
+}
+
+.btn {
+   background-color: #1D84B5;
+   padding:0.7em 2em;
+   border: 2px solid #1D84B5;
+   border-radius: 0.5em;
+   margin-top: 2em;
+   color: white;
+   font-size: 12px;
+   cursor: pointer;
+}
