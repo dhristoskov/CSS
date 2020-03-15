@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 'Ubuntu', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.statistic {
+    position: relative;
+    margin: 10em;
+}
+
+.statistic img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+}
+
+.close {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    top: 1%;
+    right: 1%;
+}
+.options {
+    display: flex;
+    justify-content: space-around;
+    min-height: 15em;
+    align-items: center;
+    margin: auto 5em;
+}
+
+.item {
+    text-align: center;
+}
+
+.item i {
+    font-size: 36px;
+    color: orange;
+    margin-bottom: 0.3em;
+}
+
+.item p{
+    font-size: 18px;
+    color: white;
+    margin: 0.6em auto;
+}
+
+.item .numbers {
+    font-weight: bold;
+}
