@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30em ;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: blue;
+    border-bottom: 1px solid black;
+}
+
+.form-container p {
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0.3em;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 2em auto;
+    width: 100%;
+}
+
+.field {
+    position: relative;
+}
+
+.field input {
+    width: 95%;
+    margin: 0.5em auto;  
+    padding: 0.5em; 
+}
+
+input[type=text],
+input[type=email]{
+    padding-left: 2em;
+}
+
+.field i {
+    position: absolute;
+    top: 14px;
+    left: 6px;
+}
+
+.btn button {
+    width: 100%;
+    padding: 0.5em;
+    margin: 1em auto;
+    background-color: blue;
+    color: white;
+}
+
+label {
+    color: blue;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-top: 0.5em; 
+}
+
+.required {
+    font-size: 10px;
+}
+

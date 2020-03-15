@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/97203dddc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1 class="title">Sign Up Form</h1>
+        <p>Enter your data to create an account</p>
+        <form class="signUp">
+            <label required="required" for="name">*Name</label>
+            <div class="field">
+                <i class="fas fa-user"></i>
+                <input type="text" id="name" placeholder="Your name here...">
+            </div>
+            <label required="required" for="email">*E-mail</label>
+            <div class="field">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" placeholder="Your e-mail here...">
+            </div>
+            <label required="required" for="number">*Phone Number</label>
+            <div class="field">
+                <i class="fas fa-mobile-alt"></i>
+                <input type="text" id="number" placeholder="Phone Number...">
+            </div>
+            <label required="required" for="password">*Password</label>
+            <div class="field">
+                <i class="fas fa-lock"></i>
+                <input type="text" id="password" placeholder="Your Password...">
+            </div>
+            <label required="required" for="password2">*Confirm Password<span class="required">(minimum 6 charachters)</span></label>
+            <div class="field">
+                <i class="fas fa-lock"></i>
+                <input type="text" id="password2" placeholder="Confirm Password...">
+            </div>
+            <div class="btn">
+                <button>Sign Up</button>
+            </div>
+        </form>
+        <p class="question">Do you already have an account ? <a href="#">Log-in</a></p>
+    </div>   
+</body>
+</html>
